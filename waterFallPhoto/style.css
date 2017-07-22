@@ -1,0 +1,52 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.control{
+    margin-top: 20px;
+    text-align: center;
+}
+.cover{
+    width:100%;
+    height:664px;
+    z-index:100;
+    position: fixed;
+    top:0px;
+    display: none;
+    background: rgba(0,0,0,0.6);
+}
+.imgBox{
+    background-color: white;
+    width:300px;
+    height:auto;
+    position:absolute;
+
+}
+.button{
+    width:130px;
+    height:30px;
+    box-shadow:2px 2px 3px #cccccc;
+    border:1px solid #DDDDDD;
+    border-radius:10px;
+    margin-left:5px;
+    cursor:pointer;
+}
+#container{
+    width:1200px;
+    position:relative;
+    margin:0 auto;
+}
+.box{
+    float:left;
+    padding-top:15px;
+}
+.box_img{
+    padding: 10px;
+    border:1px solid #ccc;
+    box-shadow: 0 0 6px #ccc;
+    border-radius: 2px;
+}
+.box_img img{
+    width:100%;
+    height:auto;
+}
