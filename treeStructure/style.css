@@ -1,0 +1,58 @@
+*{
+    padding:0px;
+}
+#myModule {
+    margin:0 auto;
+    width:400px;
+    border:1px solid #E6E6E6;
+    padding-left:10px;
+}
+
+.myWord{
+    vertical-align: middle;
+    color:#6898C2;
+    font-family: "黑体";
+    font-size:20px;
+    cursor:pointer;
+    margin-left:10px;
+}
+.flag{
+    color:red;
+}
+.left_arrow{
+    border-left:10px solid #6898C2;
+    border-top:5px solid transparent;
+    border-bottom: 5px solid transparent;
+    /*border-right: 10px solid transparent;*/
+    font-size: 0;
+    vertical-align: middle;
+    cursor:pointer;
+}
+.bottom_arrow{
+    border-left:5px solid transparent;
+    border-top:10px solid #6898C2;
+    /*border-bottom: 5px solid transparent;*/
+    border-right: 5px solid transparent;
+    font-size: 0;
+    margin-right:8px;
+    cursor:pointer;
+}
+.addImg,.delImg{
+    vertical-align: middle;
+    cursor:pointer;
+    margin-left:10px;
+}
+#root{
+    padding:40px;
+}
+div{
+    margin-left:20px;
+    margin-top:10px;
+}
+.hideNode{
+    display:none;
+}
+
+.changeImg{
+    display:block;
+}
